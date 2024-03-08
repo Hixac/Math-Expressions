@@ -1,1 +1,1 @@
-g++ -Wall -g -o out -I. mathread.cpp main.cpp
+g++ -g -o out main.cpp

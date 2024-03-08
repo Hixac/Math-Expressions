@@ -1,13 +1,17 @@
-#include <mathread.h>
-
 #include <iostream>
+
+#define MATH_EXPR_IMPLEMENTATION
+#include "include/mathread.h"
 
 int main(void)
 {
-	std::string input = "(3*(60+32)+3*(48+32)+3*(30.72+32)+3*(24.576+32)+10*(19.6608+32))/22";
+	std::string input = "1+1";
 	Yard yard(input);
-
-	std::cout << yard.result() << std::endl;
+	
+    float answer;
+	yard.result(answer);
+	
+	std::cout << answer << std::endl;
 	
 	return 0;
 }
