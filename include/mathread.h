@@ -2,9 +2,9 @@
 
 #include <cfloat>
 #include <cassert>
-#include <iterator>
+
 #include <algorithm>
-#include <math.h>
+
 #include <climits>
 #include <vector>
 #include <array>
