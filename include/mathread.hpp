@@ -375,7 +375,7 @@ namespace math_reader {
         lexer m_lexer;
     };
 
-    void interpret(const std::string& expression);
+    void interpret(const std::string& expression, double& result);
 
 #if defined(MATH_COMPILER_IMPLEMENTATION) || defined(MATH_READER_IMPLEMENTATION)
 
